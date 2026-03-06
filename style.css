@@ -1,0 +1,392 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(204, 238, 252);
+  text-align: center;
+  /* ensures logo stays centered */
+}
+
+/* Logo */
+.logo {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: cursive;
+  padding: 12px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: rgb(44, 42, 42);
+}
+
+.logo a:hover {
+
+  color: #4a90e2;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.05);
+}
+
+/* Navbar */
+.navbar {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+  padding: 20px;
+  box-shadow: 0px 5px 10px rgb(170, 163, 163);
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  /* centers items horizontally */
+  align-items: center;
+  /* centers items vertically */
+  gap: 20px;
+  /* spacing between items */
+}
+
+.navbar ul li {
+  list-style-type: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  /* keeps icon + text aligned */
+  align-items: center;
+  gap: 8px;
+  /* space between icon and text */
+}
+
+.navbar ul li a:hover {
+  transform: scale(1.05);
+  color: rgb(65, 61, 61);
+  transition: all 0.3s ease-in-out;
+}
+
+/* Overall profile container */
+.profile {
+  display: flex;
+  /* Use flexbox for layout */
+  flex-direction: column;
+  /* Stack items vertically */
+  align-items: center;
+  /* Center items horizontally */
+  justify-content: center;
+  /* Center items vertically */
+  padding: 40px;
+  /* Space around the section */
+  background: #f5f7fa;
+  /* Light background color */
+  border-radius: 12px;
+  /* Rounded corners for the section */
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  /* Soft shadow for depth */
+  max-width: 500px;
+  /* Limit width for neat look */
+  margin: 40px auto;
+  /* Center the section on page */
+}
+
+/* Profile image */
+.profile img {
+  border-radius: 50%;
+  /* Make image circular */
+  border: 3px solid #4a90e2;
+  /* Blue border around image */
+  margin-bottom: 20px;
+  /* Space below image */
+  object-fit: cover;
+  /* Crop image nicely */
+}
+
+/* Name styling */
+.profile .name {
+  font-size: 1.8rem;
+  /* Larger font for name */
+  font-weight: bold;
+  /* Bold text */
+  color: #333;
+  /* Dark gray text */
+  margin-bottom: 10px;
+  /* Space below name */
+  text-align: center;
+  /* Center text */
+}
+
+/* Info / tagline styling */
+.profile .info {
+  font-size: 1rem;
+  /* Normal text size */
+  color: #555;
+  /* Medium gray text */
+  text-align: center;
+  /* Center text */
+  line-height: 1.5;
+  /* Comfortable line spacing */
+  max-width: 400px;
+  /* Keep text from stretching too wide */
+}
+
+/* General reset for consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Styling the Projects section */
+.pro {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  /* deep professional tone */
+  text-align: center;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: fit-content;
+  border-bottom: 3px solid #3498db;
+  /* accent underline */
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover effect for interactivity */
+.pro:hover {
+
+  color: #3498db;
+  border-bottom-color: #2c3e50;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Optional background styling for section container */
+body {
+  background: #f4f6f9;
+  /* subtle light background */
+}
+
+.profile:hover {
+  transform: scale(1.05);
+  color: #f5f7fa;
+  transition: all 0.3s ease-in-out;
+}
+
+.serve {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.web {
+  margin: 30px;
+  border: 2px solid gray;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 0px 6px 10px #757171;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+
+
+.web:hover {
+
+
+  transition: all 0.3s ease-in-out;
+  color: #3498db;
+  border-bottom-color: #2c3e50;
+  transform: scale(1.07);
+  cursor: pointer;
+  cursor: pointer;
+}
+
+span:hover {
+  border-bottom-color: #2c3e50;
+}
+
+.dev {
+  margin: 30px;
+  border: 2px solid gray;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: 40px;
+  box-shadow: 0px 6px 10px #757171;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+
+
+}
+
+.dev:hover {
+  transition: all 0.3s ease-in-out;
+  color: #3498db;
+  border-bottom-color: #2c3e50;
+  transform: scale(1.07);
+  cursor: pointer;
+  cursor: pointer;
+
+}
+
+.py {
+  margin: 30px;
+  border: 2px solid gray;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 0px 6px 10px #757171;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+
+.py img {
+  width: fit-content;
+
+}
+
+.py:hover {
+  transition: all 0.3s ease-in-out;
+  color: #3498db;
+  border-bottom-color: #2c3e50;
+  transform: scale(1.07);
+  cursor: pointer;
+  cursor: pointer;
+}
+
+
+span {
+  border-bottom: 3px solid#3498db;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+  line-height: 20px;
+}
+
+.data {
+  margin: 30px;
+  border: 2px solid gray;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  border-radius: 40px;
+  box-shadow: 0px 6px 10px #757171;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+  width: fit-content;
+}
+
+.data:hover {
+  transition: all 0.3s ease-in-out;
+  color: #3498db;
+  border-bottom-color: #2c3e50;
+  transform: scale(1.07);
+  cursor: pointer;
+  cursor: pointer;
+}
+
+p {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 1s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.intro {
+  border: 3px solid #2c3e50;
+  padding: 50px;
+  margin: 40px auto;
+  border-radius: 50px;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0px 5px 10px rgb(109, 103, 103);
+  max-width: 500px;
+  
+}
+
+.intro:hover {
+  transform: scale(1.05);
+  color: #333;
+}
+
+.introduction {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  /* deep professional tone */
+  text-align: center;
+  padding: 1.5rem;
+  margin: 2rem auto;
+  width: fit-content;
+  border-bottom: 3px solid #3498db;
+  /* accent underline */
+  letter-spacing: 1px;
+  transition: all 0.3s ease-in-out;
+}
+
+.introduction:hover {
+  color: #3498db;
+  border-bottom-color: #2c3e50;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.separate{
+  border-bottom: 3px solid gray;
+  margin: 40px ;
+  padding: 50px;
+}
+.site-footer {
+        background-color: #222; /* Dark professional background */
+        color: #ffffff;
+        padding: 20px 0;
+        text-align: center;
+        font-family: sans-serif;
+    }
+
+    .footer-content {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-links {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .footer-links a {
+        color: #bbb;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: color 0.3s;
+    }
+
+    .footer-links a:hover {
+        color: #fff; /* Highlights on hover */
+    }
